@@ -1,12 +1,12 @@
 import React from "react";
+import Site from "./components/Site";
 
-
-function App() {
+const App = () => {
   return (
     <div>
-
+      <Site />;
     </div>
-  );
+  )
 }
 
 export default App;
