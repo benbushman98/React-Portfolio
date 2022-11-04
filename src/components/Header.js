@@ -1,6 +1,31 @@
-import React from 'react'
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+import Navigation from './Navigation';
+import React, { useState } from 'react';
+
+
 
 const Header = () => {
+
+  const [currentPage, setCurrentPage] = useState('About');
+
+  const renderPage = () => {
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    return <About />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <header>
       <nav className="navbar navbar-expand-lg bg-light">
@@ -11,9 +36,15 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div>
+              <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            </div>
           </div>
         </div>
       </nav>
+      <div>
+        {renderPage()}
+      </div>
     </header>
   )
 }
