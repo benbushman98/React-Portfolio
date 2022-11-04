@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const Footer = () => {
+const Footer = () => {
   return (
-    <footer class="mt-auto text-center">
+    <footer className="text-center fixed-bottom">
         <p>Created and Designed by Benjamin Bushman | Copyright © 2022</p>
     </footer>
   )

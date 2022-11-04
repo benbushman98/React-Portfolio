@@ -30,18 +30,12 @@ const Site = () => {
     const handlePageChange = (page) => setCurrentPage(page);
     return (
         <div>
-
             <Header />
-
-
-            {/* We are passing the currentPage from state and the function to update it */}
-            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-            {/* Here we are calling the renderPage method which will return a component  */}
-            {renderPage()}
-
-
+            <div>
+                <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+                {renderPage()}
+            </div>
             <Footer />
-
         </div>
     );
 }
