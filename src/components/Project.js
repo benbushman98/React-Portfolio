@@ -9,6 +9,7 @@ const Project = () => {
         width: "18rem"
     }
     return(
+        // Help with mapping idea and implementation. https://www.youtube.com/watch?v=aJgAwjP20RY 
     Projects && Projects.map( project => {
         return (
             <div className="card m-3 text-center" key={project.id} style={style}>
