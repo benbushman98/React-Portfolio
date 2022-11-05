@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "GitSurveys",
+        "src": "images/GitSurveys.png",
+        "alt": "Photo of GitSurverys Homepage",
+        "description": "GitSurveys is an application created with the purpose of facilitating the process for objective data collections. This application is for people longing to have a better understanding of how others think and their preferences.",
+        "liveLink": "https://www.gitsurveys.com/",
+        "repoLink": "https://github.com/benbushman98/gitsurveys"
+    },
+    {
+        "id": 2,
+        "title": "Tech-Blog",
+        "src": "images/TechBlog.png",
+        "alt": "Photo of Tech-Blog Homepage",
+        "description": "This project was created to demonstrate my ability to use the MVC model. Using technologies such as Sequelize, Handlebars, Express, Dotenv and others, you will be able to navigate a Tech Blog with articles and comments that relate to interesting points of views and discussions. Create a user, add posts, comment on other posts, and follow the world of Web Development in a easy to use and simple process. Deployed using Heroku, the back end will store all information in a mySQL database.",
+        "liveLink": "https://protected-tundra-33047.herokuapp.com/",
+        "repoLink": "https://github.com/benbushman98/Tech-Blog"
+    },
+    {
+        "id": 3,
+        "title": "Blue Ladder Services",
+        "src": "images/blueladder.png",
+        "alt": "Photo of BlueLadder Homepage",
+        "description": "This website was designed for the company, Blue Ladder Services, to showcase their services. This is a live site used in production",
+        "liveLink": "chooseblueladder.com",
+        "repoLink": "https://github.com/benbushman98/Blue-Ladder-Services"
+    },
+    {
+        "id": 4,
+        "title": "Regex Tutorial",
+        "src": "images/regex.png",
+        "alt": "Photo of Regex Tutorial",
+        "description": "If you need to know more about regex, specifically a regex designed to search for email addresses, check this out!",
+        "liveLink": "https://gist.github.com/benbushman98/c96e1f7babd92254181b2b8a16c96ef7#file-regex_tutorial-md",
+        "repoLink": "https://gist.github.com/benbushman98/c96e1f7babd92254181b2b8a16c96ef7"
+    },
+    {
+        "id": 5,
+        "title": "Liberty News Radio",
+        "src": "images/liberty.png",
+        "alt": "Photo of Liberty News Radio Logo",
+        "description": "Liberty News Radio is a radio station focused on bringing listeners news that the mainstream networks refuse to use.",
+        "liveLink": "https://www.libertynewsradio.com/",
+        "repoLink": "https://github.com/benbushman98/LibertyNewsRadio-Pro"
+    },
+    {
+        "id": 6,
+        "title": "Cuddly Robot Food Crawl",
+        "src": "images/Robot.png",
+        "alt": "Photo of Cuddly Robot Food Crawl",
+        "description": "This application is designed to provide guidance to users that are looking for a restaurant in a specific location, given their preferences.",
+        "liveLink": "https://benbushman98.github.io/cuddly-robot/",
+        "repoLink": "https://github.com/benbushman98/cuddly-robot"
+    }
+]
