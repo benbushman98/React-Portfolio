@@ -4,7 +4,7 @@ import Site from "./components/Site";
 const App = () => {
   return (
     <div>
-      <Site />;
+      <Site />
     </div>
   )
 }
