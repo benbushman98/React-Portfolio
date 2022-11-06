@@ -9,48 +9,59 @@ import React, { useState } from 'react';
 
 
 const Header = () => {
-
-  const [currentPage, setCurrentPage] = useState('Start');
-
-  const renderPage = () => {
-    if (currentPage === 'Contact') {
-      return <Contact />;
+  const style = {
+    colorBack: {
+      backgroundColor: "#222222"
+    },
+    blueText: {
+      color: '#2096F3'
+    },
+    fullPage: {
+      minHeight: "84vh"
     }
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
-    }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-    }
-    if (currentPage === 'About') {
-      return <About />;
-    }
-    return <Start />;
-  };
+}
 
-  const handlePageChange = (page) => setCurrentPage(page);
+const [currentPage, setCurrentPage] = useState('Start');
 
-  return (
-    <header class>
-      <nav className="navbar navbar-expand-lg bg-light">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#about">BB</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <div>
-              <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-            </div>
+const renderPage = () => {
+  if (currentPage === 'Contact') {
+    return <Contact />;
+  }
+  if (currentPage === 'Portfolio') {
+    return <Portfolio />;
+  }
+  if (currentPage === 'Resume') {
+    return <Resume />;
+  }
+  if (currentPage === 'About') {
+    return <About />;
+  }
+  return <Start />;
+};
+
+const handlePageChange = (page) => setCurrentPage(page);
+
+return (
+  <header style={style.colorBack} >
+    <nav className="navbar navbar-expand-lg">
+      <div className="container-fluid">
+        <a className="navbar-brand text-white" href="#about">BB</a>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div>
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
           </div>
         </div>
-      </nav>
-      <div>
-        {renderPage()}
       </div>
-    </header>
-  )
+    </nav>
+    <div className='overflow-hidden' style={style.fullPage} >
+      {renderPage()}
+    </div>
+  </header>
+)
 }
 
 export default Header

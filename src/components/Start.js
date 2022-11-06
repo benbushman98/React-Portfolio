@@ -2,16 +2,24 @@ import React from 'react'
 
 const Start = () => {
     const style = {
-        height: "750px",
+        location: {
+        height: "785px",
         width: "100%"
+        },
+        colorText: {
+            color: "#2096F3"
+        },
+        colorBack: {
+            color: "#222222"
+        }
     }
     return (
-        <table style={style}>
+        <table style={style.location}>
             <tbody>
                 <tr>
                     <td className='align-middle text-center'>
-                        <h1>BENJAMIN BUSHMAN</h1>
-                        <h4>Full Stack Web Developer</h4>
+                        <h1 style={style.colorText}>BENJAMIN BUSHMAN</h1>
+                        <h4 className='text-white'>Full Stack Web Developer</h4>
                     </td>
                 </tr>
             </tbody>
