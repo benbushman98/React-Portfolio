@@ -10,12 +10,12 @@
     },
     {
         "id": 2,
-        "title": "Tech-Blog",
-        "src": "images/TechBlog.png",
-        "alt": "Photo of Tech-Blog Homepage",
-        "description": "This project was created to demonstrate my ability to use the MVC model. Using technologies such as Sequelize, Handlebars, Express, Dotenv and others, you will be able to navigate a Tech Blog with articles and comments that relate to interesting points of views and discussions. Create a user, add posts, comment on other posts, and follow the world of Web Development in a easy to use and simple process. Deployed using Heroku, the back end will store all information in a mySQL database.",
-        "liveLink": "https://protected-tundra-33047.herokuapp.com/",
-        "repoLink": "https://github.com/benbushman98/Tech-Blog"
+        "title": "Note Taker",
+        "src": "images/NoteTaker.png",
+        "alt": "Photo of Note Taker",
+        "description": "This application is designed to provide guidance to users that are looking for a restaurant in a specific location, given their preferences.",
+        "liveLink": "https://limitless-river-82628.herokuapp.com/",
+        "repoLink": "https://github.com/benbushman98/Note-Taker"
     },
     {
         "id": 3,
@@ -52,5 +52,14 @@
         "description": "This application is designed to provide guidance to users that are looking for a restaurant in a specific location, given their preferences.",
         "liveLink": "https://benbushman98.github.io/cuddly-robot/",
         "repoLink": "https://github.com/benbushman98/cuddly-robot"
+    },
+    {
+        "id": 7,
+        "title": "Tech-Blog",
+        "src": "images/TechBlog.png",
+        "alt": "Photo of Tech-Blog Homepage",
+        "description": "This project was created to demonstrate my ability to use the MVC model. Using technologies such as Sequelize, Handlebars, Express, Dotenv and others, you will be able to navigate a Tech Blog with articles and comments that relate to interesting points of views and discussions. Create a user, add posts, comment on other posts, and follow the world of Web Development in a easy to use and simple process. Deployed using Heroku, the back end will store all information in a mySQL database.",
+        "liveLink": "https://protected-tundra-33047.herokuapp.com/",
+        "repoLink": "https://github.com/benbushman98/Tech-Blog"
     }
 ]

@@ -13,7 +13,7 @@ const About = () => {
             With this background in tech, he got his first job out of high school as a computer hardware technician. Refurbishing thousands of computers, Ben understands the fine details of diagnosis and repair. After several years working on computer hardware, 
             Ben turned his attention to network administrating. With an understanding of the innerworkings of servers, switches, routers, and firewalls, he loves learning new ascpects of IT. Web development is his newest skill he has set out to master.
 
-            Growing up 
+            Growing up, I've always
           </p>
         </div>
         <div className="col">
