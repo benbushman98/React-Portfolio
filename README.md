@@ -6,4 +6,4 @@ This project was created to demonstrate my ability to use React.js. Here you wil
 ![Photos of Personal Website](/assets/img/site.png)
 
 ## Deployed Application
-https://boiling-mesa-85788.herokuapp.com/
+https://benbushman98.github.io/React-Portfolio/
