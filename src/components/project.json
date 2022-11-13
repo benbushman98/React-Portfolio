@@ -47,7 +47,7 @@
     {
         "id": 6,
         "title": "Cuddly Robot Food Crawl",
-        "src": "images/robot.png",
+        "src": "images/roboticarm.png",
         "alt": "Photo of Cuddly Robot Food Crawl",
         "description": "This application is designed to provide guidance to users that are looking for a restaurant in a specific location, given their preferences.",
         "liveLink": "https://benbushman98.github.io/cuddly-robot/",
