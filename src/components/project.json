@@ -23,7 +23,7 @@
         "src": "images/blueladder.png",
         "alt": "Photo of BlueLadder Homepage",
         "description": "This website was designed for the company, Blue Ladder Services, to showcase their services. This is a live site used in production",
-        "liveLink": "chooseblueladder.com",
+        "liveLink": "https://chooseblueladder.com",
         "repoLink": "https://github.com/benbushman98/Blue-Ladder-Services"
     },
     {

@@ -42,7 +42,7 @@ const renderPage = () => {
 const handlePageChange = (page) => setCurrentPage(page);
 
 return (
-  <header style={style.colorBack} >
+  <header>
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <a className="navbar-brand text-white" href="#about">BB</a>
@@ -57,7 +57,7 @@ return (
         </div>
       </div>
     </nav>
-    <div className='overflow-hidden' style={style.fullPage} >
+    <div className=''>
       {renderPage()}
     </div>
   </header>

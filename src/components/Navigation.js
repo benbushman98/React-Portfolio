@@ -20,7 +20,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a style={style.whiteText}
           href="#about"
           onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'nav-link active text-info' : 'nav-link'}
+          className={currentPage === 'About' ? 'nav-link active text-warning' : 'nav-link'}
         >
           About
         </a>
@@ -29,7 +29,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a style={style.whiteText}
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
-          className={currentPage === 'Portfolio' ? 'nav-link active text-info' : 'nav-link'}
+          className={currentPage === 'Portfolio' ? 'nav-link active text-warning' : 'nav-link'}
         >
           Portfolio
         </a>
@@ -38,7 +38,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a style={style.whiteText}
           href="#resume"
           onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active text-info' : 'nav-link'}
+          className={currentPage === 'Resume' ? 'nav-link active text-warning' : 'nav-link'}
         >
           Resume
         </a>
@@ -47,7 +47,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <a style={style.whiteText}
           href="#contact"
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active text-info' : 'nav-link'}
+          className={currentPage === 'Contact' ? 'nav-link active text-warning' : 'nav-link'}
         >
           Contact
         </a>
