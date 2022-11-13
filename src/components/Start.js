@@ -3,7 +3,7 @@ import React from 'react'
 const Start = () => {
     const style = {
         location: {
-        height: "785px",
+        height: "655px",
         width: "100%"
         },
         colorText: {

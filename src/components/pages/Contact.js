@@ -20,7 +20,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="container my-2">
+            <div className="container my-5">
                 <div className="row">
                     <div className="col">
                     </div>
@@ -50,8 +50,8 @@ const Contact = () => {
                 <div className="row">
                     <div className="col">
                     </div>
-                    <div className="col-10 col-lg-6">
-                        <p className='text-white py-2 px-1 text-center'>Please reach out to me with any questions, concerns, suggestions, or interest in collaboration. Feel free to reach out to me via the contact form or visit me on social media.</p>
+                    <div className="col-10 col-lg-6 mb-5">
+                        <h5 className='text-white py-2 px-1 text-center'>Please reach out to me with any questions, concerns, suggestions, or interest in collaboration. Feel free to reach out to me via the contact form or visit me on social media.</h5>
                     </div>
                     <div className="col">
                     </div>
