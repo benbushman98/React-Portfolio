@@ -1,6 +1,6 @@
 {
-  "homepage": "https://benbushman98.github.io/my-app",
-  "name": "my-app",
+  "homepage": "https://benbushman98.github.io/React-Portfolio/",
+  "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
