@@ -27,16 +27,16 @@ const Contact = () => {
                     <div className="col-10 col-lg-6">
                         <form className="justify-content-center align-items-center text-center">
                             <div className="form-group m-3">
-                                <input type="text" className="form-control" id="InputName1" aria-describedby="nameHelp" placeholder="Name"></input>
+                                <input type="text" className="form-control" id="InputName1" aria-describedby="nameHelp" placeholder="Name" required></input>
                             </div>
                             <div className="form-group m-3">
-                                <input type="email" className="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Email"></input>
+                                <input type="email" className="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Email" required></input>
                             </div>
                             <div className="form-group m-3">
-                                <input type="text" className="form-control" id="InputSubject1" placeholder="Subject"></input>
+                                <input type="text" className="form-control" id="InputSubject1" placeholder="Subject" required></input>
                             </div>
                             <div className="form-group m-3">
-                                <input type="text" className="form-control" id="InputMessage1" placeholder="Message"></input>
+                                <input type="text" className="form-control" id="InputMessage1" placeholder="Message" required></input>
                             </div>
                             <button type="submit" className="btn btn-primary mb-2">Submit</button>
                         </form>

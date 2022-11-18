@@ -34,13 +34,13 @@ return (
   <header>
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand text-white">Benjamin Bushman</a>
+        <p className="navbar-brand text-white">Benjamin Bushman</p>
         <button className="navbar-toggler bg-white rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <div>
+        <div className="collapse navbar-collapse justify-content-end text-end" id="navbarNav">
+          <div className='justify-content-end'>
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
           </div>
         </div>
