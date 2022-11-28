@@ -1,6 +1,15 @@
 [
     {
         "id": 1,
+        "title": "Prep Starts Now",
+        "src": "images/screenshot.jpg",
+        "alt": "Photo of Prep Starts Now Homepage",
+        "description": "Prep Starts Now is your one stop shop for all things Prep. From resources to items to purchase, find your prep bone at Prep Starts Now",
+        "liveLink": "http://www.prepstartsnow.com/",
+        "repoLink": "https://github.com/benbushman98/Prep-Start-Now"
+    },
+    {
+        "id": 1,
         "title": "GitSurveys",
         "src": "images/GitSurveys.png",
         "alt": "Photo of GitSurverys Homepage",
