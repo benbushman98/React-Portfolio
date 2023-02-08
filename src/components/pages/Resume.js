@@ -27,7 +27,7 @@ const Resume = () => {
                 <Skills />
               </div>
               <div className='color-warning'>
-              <a href="https://drive.google.com/file/d/1ibkVEG80J92qcLsPzsud7tZMrz-ey19r/view?usp=share_link" rel="noreferrer" target="_blank" className='text-decoration-none m-3 text-center' style={style.blueText} download><h4 className='text-warning'>Download</h4></a>
+              <a href="https://docs.google.com/document/d/1vEKsxz5gyizjYZfIpFL24hf0qK6ZlLXO/edit?usp=share_link&ouid=103406461307147392263&rtpof=true&sd=true" rel="noreferrer" target="_blank" className='text-decoration-none m-3 text-center' style={style.blueText} download><h4 className='text-warning'>Download</h4></a>
               </div>
             </div>
           </div>
