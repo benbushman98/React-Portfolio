@@ -1,0 +1,20 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    background: #222222;
+
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(32, 150, 243);
+    background: linear-gradient(to bottom, rgb(32, 150, 243) 0%, rgb(1, 66, 116) 100%);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, rgb(1, 66, 116) 0%, rgb(32, 150, 243) 100%);
+
+  }
+
