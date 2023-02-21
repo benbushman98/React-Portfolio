@@ -34,7 +34,7 @@ return (
   <header>
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <p className="navbar-brand text-white">Benjamin Bushman</p>
+        <p className="navbar-brand text-white"><a className='text-decoration-none text-white' href='https://benjaminbushman.com'>Benjamin Bushman</a></p>
         <button className="navbar-toggler bg-white rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

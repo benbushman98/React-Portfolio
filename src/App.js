@@ -4,7 +4,7 @@ import Style from "./style.css"
 
 const App = () => {
   return (
-    <div style={Style}>
+    <div style={Style} >
       <Site />
     </div>
   )
