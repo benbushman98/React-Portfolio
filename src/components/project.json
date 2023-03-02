@@ -2,6 +2,7 @@
     {
         "id": 1,
         "title": "Prep Starts Now",
+        "aos": "fade-up",
         "src": "images/screenshot.jpg",
         "alt": "Photo of Prep Starts Now Homepage",
         "description": "Prep Starts Now is your one stop shop for all things Prep. From resources to items to purchase, find your prep bone at Prep Starts Now",
@@ -11,6 +12,7 @@
     {
         "id": 8,
         "title": "GitSurveys",
+        "aos": "fade-up",
         "src": "images/GitSurveys.png",
         "alt": "Photo of GitSurverys Homepage",
         "description": "GitSurveys is an application created with the purpose of facilitating the process for objective data collections. This application is for people longing to have a better understanding of how others think and their preferences.",
@@ -20,6 +22,7 @@
     {
         "id": 2,
         "title": "Note Taker",
+        "aos": "fade-up",
         "src": "images/NoteTaker.png",
         "alt": "Photo of Note Taker",
         "description": "This application is designed to provide guidance to users that are looking for a restaurant in a specific location, given their preferences.",
@@ -29,6 +32,7 @@
     {
         "id": 3,
         "title": "Blue Ladder Services",
+        "aos": "fade-left",
         "src": "images/blueladder.png",
         "alt": "Photo of BlueLadder Homepage",
         "description": "This website was designed for the company, Blue Ladder Services, to showcase their services. This is a live site used in production",
@@ -38,6 +42,7 @@
     {
         "id": 4,
         "title": "Regex Tutorial",
+        "aos": "fade-left",
         "src": "images/regex.png",
         "alt": "Photo of Regex Tutorial",
         "description": "If you need to know more about regex, specifically a regex designed to search for email addresses, check this out!",
@@ -47,6 +52,7 @@
     {
         "id": 5,
         "title": "Liberty News Radio",
+        "aos": "fade-left",
         "src": "images/liberty.png",
         "alt": "Photo of Liberty News Radio Logo",
         "description": "Liberty News Radio is a radio station focused on bringing listeners news that the mainstream networks refuse to use.",
@@ -56,6 +62,7 @@
     {
         "id": 6,
         "title": "Cuddly Robot Food Crawl",
+        "aos": "fade-right",
         "src": "images/roboticarm.png",
         "alt": "Photo of Cuddly Robot Food Crawl",
         "description": "This application is designed to provide guidance to users that are looking for a restaurant in a specific location, given their preferences.",
@@ -66,6 +73,7 @@
         "id": 7,
         "title": "Tech-Blog",
         "src": "images/TechBlog.png",
+        "aos": "fade-right",
         "alt": "Photo of Tech-Blog Homepage",
         "description": "This project was created to demonstrate my ability to use the MVC model. Using technologies such as Sequelize, Handlebars, Express, Dotenv and others, you will be able to navigate a Tech Blog with articles and comments that relate to interesting points of views and discussions.",
         "liveLink": "https://protected-tundra-33047.herokuapp.com/",

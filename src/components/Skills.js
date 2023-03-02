@@ -6,7 +6,7 @@ const Skill = () => {
     }
     return (
         <div className='d-flex flex-wrap justify-content-center'>
-            <div className="card m-3 text-center" style={style}>
+            <div className="card m-3 text-center" data-aos="fade-right" style={style}>
                 <div className="card-body">
                     <h5 className="card-title">Front End</h5>
                     <div>
@@ -22,7 +22,7 @@ const Skill = () => {
                     </div>
                 </div>
             </div>
-            <div className="card m-3 text-center" style={style}>
+            <div className="card m-3 text-center" data-aos="fade-left" style={style}>
                 <div className="card-body">
                     <h5 className="card-title">Back End</h5>
 
@@ -36,7 +36,7 @@ const Skill = () => {
                     </div>
                 </div>
             </div>
-            <div className="card m-3 text-center" style={style}>
+            <div className="card m-3 text-center" data-aos="fade-right" style={style}>
                 <div className="card-body">
                     <h5 className="card-title">Databases</h5>
                     <div>
@@ -49,7 +49,7 @@ const Skill = () => {
                     </div>
                 </div>
             </div>
-            <div className="card m-3 text-center" style={style}>
+            <div className="card m-3 text-center" data-aos="fade-left"  style={style}>
                 <div className="card-body">
                     <h5 className="card-title">Miscellaneous</h5>
                     <div>

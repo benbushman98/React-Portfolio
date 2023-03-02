@@ -5,17 +5,15 @@ import Projects from "./project.json"
 
 
 const Project = () => {
-    const style = {
-        width: "18rem"
-    }
+
     return(
         // Help with mapping idea and implementation. https://www.youtube.com/watch?v=aJgAwjP20RY 
     Projects && Projects.map( project => {
         return (
-            <div className="card m-3 text-center" key={project.id} style={style}>
+            <div data-aos={project.aos} className="card m-3 text-center hover-zoom hover-shadow" key={project.id} style={{width:"18rem", background:"#d8d8d8"}}>
                 <div className="card-body">
                     <h5 className="card-title">{project.title}</h5>
-                    <img src={project.src} className="card-img-top" alt={project.alt}></img>
+                    <img src={project.src} className="card-img-top card hover-shadow" alt={project.alt}></img>
                     <p className="card-text py-2">{project.description}</p>
                 </div>
 

@@ -6,7 +6,7 @@ import Typed from 'typed.js';
 const Start = () => {
     Aos.init({ duration: 2000 });
 
-    const el = React.useRef(null);
+    const element = React.useRef(null);
 
     const typed = React.useRef(null);
 
@@ -18,7 +18,7 @@ const Start = () => {
             typeSpeed: 100,
         };
 
-        typed.current = new Typed(el.current, options);
+        typed.current = new Typed(element.current, options);
 
         return () => {
             typed.current.destroy();
@@ -31,7 +31,7 @@ const Start = () => {
                 <tr>
                     <td className='align-middle text-center'>
                         <h1 data-aos="fade-down" style={{ color: "#2096F3" }}>BENJAMIN BUSHMAN</h1>
-                        <span style={{ whiteSpace: 'pre', color: "white", fontSize:'30px' }} ref={el} />
+                        <span style={{ whiteSpace: 'pre', color: "white", fontSize:'30px' }} ref={element} />
                     </td>
                 </tr>
             </tbody>

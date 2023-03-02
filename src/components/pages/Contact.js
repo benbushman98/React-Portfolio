@@ -1,6 +1,14 @@
-import React from 'react'
+import { React,useEffect } from 'react'
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    
+      },[])
+
     const style = {
         blueText: {
             color: '#2096F3'
@@ -8,7 +16,7 @@ const Contact = () => {
     }
     return (
         <div>
-            <div className="container my-5">
+            <div className="container">
                 <div className="row">
                     <div className="col">
                     </div>
@@ -20,7 +28,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="container my-5">
+            <div data-aos="fade-up" className="container my-5">
                 <div className="row">
                     <div className="col">
                     </div>
@@ -46,7 +54,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="container py-3">
+            <div data-aos="fade-down" className="container">
                 <div className="row">
                     <div className="col">
                     </div>
