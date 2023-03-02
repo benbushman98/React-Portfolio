@@ -4,11 +4,15 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Navigation from './Navigation';
 import Start from './Start';
-import React, { useState } from 'react';
-
-
+import React, { useState, useEffect } from 'react';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Header = () => {
+
+useEffect(() => {
+    Aos.init({ duration: 3000 });
+}, []);
 
 const [currentPage, setCurrentPage] = useState('Start');
 
@@ -34,13 +38,13 @@ return (
   <header>
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <p className="navbar-brand text-white"><a className='text-decoration-none text-white' href='https://benjaminbushman.com'>Benjamin Bushman</a></p>
+        <p className="navbar-brand text-white " data-aos="fade-left"><a  className='text-decoration-none text-white' href='https://benjaminbushman.com'>Benjamin Bushman</a></p>
         <button className="navbar-toggler bg-white rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-end text-end" id="navbarNav">
-          <div className='justify-content-end'>
+          <div className='justify-content-end' >
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
           </div>
         </div>
