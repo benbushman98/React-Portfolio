@@ -1,7 +1,7 @@
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
+import About from '../pages/About';
+import Contact from '../pages/Contact';
+import Portfolio from '../pages/Portfolio';
+import Resume from '../pages/Resume';
 import Navigation from './Navigation';
 import Start from './Start';
 import React, { useState } from 'react';

@@ -1,6 +1,6 @@
 import { React, useEffect } from 'react'
 
-import Skills from '../Skills'
+import Skills from '../components/Skills'
 import Aos from "aos";
 import "aos/dist/aos.css";
 
